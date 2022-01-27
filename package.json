@@ -1,0 +1,24 @@
+{
+  "name": "fullstackcourse",
+  "version": "1.0.0",
+  "description": "simple fullstack application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "fullstack",
+    "nodejs"
+  ],
+  "author": "Chopsqd",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
